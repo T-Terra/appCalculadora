@@ -42,7 +42,7 @@ export default class App extends Component {
 
   render(): React.ReactNode {
     return (
-      <SafeAreaView style={style.buttons}>
+      <SafeAreaView style={style.container}>
         <Display value={this.state.displayValue}/>
         <View style={style.buttons}>
           <Button label="AC" triple onClick={this.clearMemory}/>
